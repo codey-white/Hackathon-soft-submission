@@ -1,0 +1,263 @@
+/* navigation */
+.navigation{
+    background-color: #F8F4EA;
+}
+.nav-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/* PLACES */
+.places{
+    background-color: antiquewhite;
+}
+.places-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+.places img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.title{
+    padding: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 80px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* WEATHER */
+.weather{
+    background-color: #EDE4E0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+.weather-items{
+    width: 60%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 20px;
+    padding: 0px 100px 100px 100px;
+    margin: auto;
+
+} 
+.temp, .Precepitation, .Prediction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp, .Precepitation, .Prediction{
+    background-color: #87A2FB;
+}
+.weather-items p{
+    grid-column: span 3;
+}
+.weather-items .temp{
+    grid-column: span 2;
+
+}
+
+.weather p{
+    font-weight: bold;
+}
+
+.weather-items .Precepitation{
+    grid-column: span 1;
+    padding: 10px;
+}
+.weather-items .Prediction{
+    grid-column: span 3;
+}
+
+
+
+
+
+
+
+
+
+
+/* HOTELS */
+
+.hotels{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hotel-items{
+    width: 60%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 10px
+    
+}
+.hotel-map{
+    border: 10px;
+    background-color: #abe54e;
+
+    padding: 10px;
+
+}
+.hotel-table{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #abe54e;
+    border: 10px;
+    padding: 10px;
+
+}
+.hotel-table table{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+.transport{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.transport-table{
+    background-color: #ADA2FF;
+    height: 500px;
+    width: 500px;
+}
+.transport-map{
+    background-color:blue;
+    height: 500px;
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.reach-us{
+    background-color: lightskyblue;
+}
+
+
+.reach-container{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 70%;
+}
+.reach-us form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width:90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+.reach-us form h3{
+    color: #555;
+    font-weight: 900;
+    margin-top: 20px;
+    text-align: center;
+}
+.reach-us form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background-color: #f5f5f5;
+    font-size: 16px;
+}
+.reach-us form button{
+    padding: 15px;
+    background-color: #ff5361;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    /* flex-basis: 30%; */
+    /* margin: 100px; */
+}
+.cont-item{
+    display: flex;
+    padding: 20px;
+}
+.contact-img{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+}
